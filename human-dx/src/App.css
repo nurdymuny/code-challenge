@@ -1,0 +1,23 @@
+.control.has-icons-left .input:focus ~ .icon, .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon, .control.has-icons-right .select:focus ~ .icon {
+  color: #dbdbdb !important;
+}
+
+.control:nth-child(2) {
+    min-width: 300px;
+}
+
+body {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.button-add {
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.nested {
+	padding-left: 50px;
+}
