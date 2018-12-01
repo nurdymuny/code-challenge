@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="" height="" viewBox="0 0 147 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="25.1336349%" y1="0%" x2="75.6332237%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4AECC5" offset="0%"></stop>
+            <stop stop-color="#39B4F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M73.5,147 C32.9070709,147 0,114.092929 0,73.5 C0,32.9070709 32.9070709,0 73.5,0 C114.092929,0 147,32.9070709 147,73.5 C147,114.092929 114.092929,147 73.5,147 Z M73,131 C105.032515,131 131,105.032515 131,73 C131,40.9674845 105.032515,15 73,15 C40.9674845,15 15,40.9674845 15,73 C15,105.032515 40.9674845,131 73,131 Z" id="Oval" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

@@ -1,0 +1,250 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+body {
+    background-color: #F9F9F9;
+}
+.jumbotron {
+    background: #4aecc5; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #4aecc5 1%, #39b4f6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #4aecc5 1%,#39b4f6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #4aecc5 1%,#39b4f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4aecc5', endColorstr='#39b4f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-radius: 0px;
+    margin-bottom: 35px;
+}
+nav.navbar ul.navbar-nav li {
+    padding: 0rem .6rem;
+}
+nav.navbar ul.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+main {
+    position: relative;
+}
+main .container {
+    position: relative;
+}
+main h1 {
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 35px;
+}
+main h5 {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.projects-wrapper {
+    position: absolute;
+    width: 100%;
+}
+ul.nav.nav-project li {
+    padding: 0rem .4rem;
+}
+ul.nav.nav-project li:first-child {
+    padding-left: 0rem;
+}
+ul.nav.nav-project li:last-child {
+    padding-right: 0rem;
+}
+ul.nav.nav-project li a img {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 1rem;
+    vertical-align: middle;
+    padding: 0px;
+}
+ul.nav.nav-project li a h6 {
+    color: #000000;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-align: left;
+}
+ul.nav.nav-project li a small {
+    color: #aaaaaa;
+    font-size: 12px;
+    text-align: left;
+    display: block;
+}
+ul.nav.nav-project li a {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 1rem;
+    -webkit-box-shadow: 0px 8px 64px -19px rgba(57,180,246,0.53);
+    -moz-box-shadow: 0px 8px 64px -19px rgba(57,180,246,0.53);
+    box-shadow: 0px 8px 64px -19px rgba(57,180,246,0.53);
+}
+ul.nav.nav-project li a:hover,
+ul.nav.nav-project li a:focus,
+ul.nav.nav-project li a.active {
+-webkit-box-shadow: 0px 8px 64px -22px rgba(57,180,246,1);
+-moz-box-shadow: 0px 8px 64px -22px rgba(57,180,246,1);
+box-shadow: 0px 8px 64px -22px rgba(57,180,246,1);
+}
+h3.list-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+h3.list-title small {
+    float: right;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+ul.list-tasks {
+    display: block;
+    margin-top: 35px;
+}
+ul.list-tasks li {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 1.2rem;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0px 8px 64px -22px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 8px 64px -22px rgba(0,0,0,0.16);
+    box-shadow: 0px 8px 64px -22px rgba(0,0,0,0.16);
+}
+ul.list-tasks li p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 25px;
+}
+ul.list-tasks li small {
+    font-size: 12px; 
+    color: #aaaaaa;
+}
+ul.list-tasks li img {
+    float: left;
+    margin-top: 10px;
+}
+
+@media (min-width: 320px) {
+    .hidden-sm-down {
+        display: none;
+    }
+    main h1 {
+        font-size: 2.5rem;
+        margin-bottom: 65px;
+    }
+    h3.list-title {
+        margin-top: 120px;
+    }
+    .projects-wrapper {
+        margin-top: -25px;
+    }
+    main .jumbotron .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    ul.navbar-nav {
+        background-color: #333333;
+        border-radius: 4px;
+    }
+}
+@media (min-width: 480px) {
+    .hidden-sm-down {
+        display: none;
+    }
+    main h1 {
+        font-size: 2.5rem;
+        margin-bottom: 65px;
+    }
+    h3.list-title {
+        margin-top: 120px;
+    }
+    .projects-wrapper {
+        margin-top: -25px;
+    }
+    main .jumbotron .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    ul.navbar-nav {
+        background-color: #333333;
+        border-radius: 4px;
+    }
+}
+@media (min-width: 768px) {
+    .hidden-sm-down {
+        display: block;
+    }
+    main h1 {
+        font-size: 3.2rem;
+        margin-bottom: 35px;
+    }
+    h3.list-title {
+        margin-top: 80px;
+    }
+    .projects-wrapper {
+        margin-top: 0px;
+    }
+    main .jumbotron .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    ul.navbar-nav {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .hidden-sm-down {
+        display: block;
+    }
+    main h1 {
+        font-size: 3.5rem;
+        margin-bottom: 35px;
+    }
+    h3.list-title {
+        margin-top: 80px;
+    }
+    .projects-wrapper {
+        margin-top: 0px;
+    }
+    main .jumbotron .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    ul.navbar-nav {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-sm-down {
+        display: block;
+        margin-bottom: 35px;
+    }
+    main h1 {
+        font-size: 3.5rem;
+    }
+    h3.list-title {
+        margin-top: 80px;
+    }
+    .projects-wrapper {
+        margin-top: 0px;
+    }
+    main .jumbotron .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    ul.navbar-nav {
+        background-color: transparent;
+        border-radius: 0px;
+    }
+}
+
